@@ -1,0 +1,26 @@
+.d-flex {
+	display: flex;
+	&.justify-content-between {
+		justify-content: space-between;
+	}
+	&.flex-4 {
+		flex: 0 0 25%;
+	}
+}
+.d-grid {
+	display: grid; 
+	gap: 31px;
+	&.grid-5 { 
+		grid-template-columns: repeat(5, 1fr);
+	}
+	&.grid-4 { 
+		grid-template-columns: repeat(4, 1fr);
+	}
+	&.grid-3 {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	&.grid-2 {
+		grid-template-columns: repeat(2, 1fr);
+	} 
+}
+

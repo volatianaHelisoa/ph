@@ -1,0 +1,48 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Ubuntu", sans-serif;
+	font-family: 700;
+	color: $primary;
+	margin-bottom: 25px;
+	margin-top: 0;
+	display: block;
+	&.w-separator {
+		margin-bottom: 0;
+		&::after {
+			content: "";
+			width: 200px;
+			height: 2px;
+			background-color: $primary;
+			display: block;
+			margin: 19px auto 25px;
+		}
+	}
+}
+h1 {
+	font-size: 60px;
+	line-height: 1.3;
+}
+h2 {
+	font-size: 50px;
+	line-height: 1.3;
+}
+h3 {
+	font-size: 40px;
+	line-height: 1.3;
+}
+
+.text-primary {
+	color: $primary;
+}
+.text-secondary {
+	color: $secondary;
+}
+
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}

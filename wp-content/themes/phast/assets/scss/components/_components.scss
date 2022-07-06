@@ -1,0 +1,15 @@
+.date-of-post {
+	display: block;
+	margin-bottom: 5px;
+}
+.card {
+	@include box--shadow();
+	border-radius: 8px;
+	background-color: white;
+	padding: 40px;
+}
+
+.tile {
+	border-left: 10px solid $primary;
+	padding-inline: 25px;
+}

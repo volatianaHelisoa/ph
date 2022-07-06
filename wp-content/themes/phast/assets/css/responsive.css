@@ -1,0 +1,163 @@
+@media (max-width: 1024px) {
+	.wrapper {
+		max-width: 800px;
+	}
+	section {
+		padding: 70px 0;
+	}
+	h1 {
+		font-size: 45px;
+    	line-height: 1.2;
+		word-break: break-all;
+		white-space: pre-line;
+	}
+	h2 {
+		font-size: 35px;
+	}
+	h3 {
+		font-size: 30px;
+	}
+	.d-grid.grid-4 {
+		grid-template-columns: 1fr 1fr;
+	}
+	.d-grid.grid-2 {
+		grid-template-columns: 1fr;
+	}
+	.main-navigation--menu {
+		display: none;
+	}
+	.hero-section {
+		padding: 206px 0 70px;
+	}
+	.hero-content {
+		padding-right: 0;
+	}
+	.hero-content p {
+		max-width: 100%;
+	}
+	.hero-content--blog-slider {
+		max-width: 100%
+	}
+
+	.live-area .live-area--slider .item {
+		display: block;
+	}
+	.live-area .live-area--slider .item .animated-illustration > * {
+		max-width: 320px;
+		margin: auto;
+	}
+	.live-area .live-area--slider .item .contents {
+		text-align: center;
+		padding: 2em 2em 4em;
+		align-items: center;
+	}
+	#agenda {
+		padding: 40px 0 70px;
+	}
+	#agenda .agenda-calendar--entry-animation {
+		display: none;
+	}
+	#agenda .agenda-tiles {
+		display: block;
+	}
+	.agenda-tiles .l-space {
+		display: none;
+	}
+	#agenda .agenda-tiles .tiles-list {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 30px;
+		margin-top: 30px;
+	}
+	#agenda .agenda-tiles .tiles-list .tile {
+		height: 100%;
+		margin: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.d-grid.grid-3 {
+		grid-template-columns: 1fr 1fr;
+	}
+	.live-area .live-area--slider .item .contents .title {
+		color: white;
+		font: 700 28px/30px "Ubuntu";
+	}
+	#webinaires .web-card p {
+		margin: 0;
+	}
+}
+
+@media (max-width: 620px) {
+	.wrapper {
+		padding: 0 25px;
+	}
+
+	.card {
+		padding: 25px;
+	}
+
+	.header-top-bar nav#top-left-nav ul li:first-child {
+		margin-right: 25px;
+	}
+
+	.header-top-bar nav ul li a {
+		font-size: 14px;
+	}
+
+	.header-top-bar nav#top-left-nav ul li a {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#agenda .agenda-tiles .tiles-list {
+		grid-template-columns: 1fr;
+	}
+
+	#discutons .card-title {
+		display: block;
+	}
+
+	#contact-type {
+		display: block
+	}
+
+	#discutons #contact-type a {
+		background: linear-gradient(90deg, #dfdd22, #24903f);
+		margin: 15px 0;
+	}
+	#discutons #contact-type a:last-of-type {
+		margin-bottom: 0;
+	}
+	
+	#site-footer {
+		padding: 70px 0;
+	}
+	#site-footer .d-grid.grid-3 { 
+		grid-template-columns: 1fr;
+	}
+	#site-footer .footer-column {
+		padding: 0;
+	}
+	#site-footer .footer-column:first-of-type {
+		order: 1;
+	}
+}
+
+@media (max-width: 480px) {
+	.btn {
+		border-radius: 8px;
+	}
+	#discutons {
+		padding: 70px 25px;
+	}
+	#discutons .sm-wrapper {
+		padding: 0;
+	}
+	.d-grid.grid-4 {
+		grid-template-columns: 1fr;
+	}
+	#webinaires .web-card {
+		padding: 12px 25px 25px;
+	}
+}
